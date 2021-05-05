@@ -1,0 +1,17 @@
+{
+  "name": "javascript-fpp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon helloworld --exec babel-node"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
